@@ -7,9 +7,9 @@ import lombok.Setter;
 @Getter
 @Setter
 @AllArgsConstructor
-public class Etudiant {
+public class Course {
   private final int id;
-  private String name, firstName, email, birthday, phoneNumber, groupe;
-  private Tuteur tuteur;
-
+  private String labelOfcourse;
+  private int credit;
+  private Enseignant enseignant;
 }
