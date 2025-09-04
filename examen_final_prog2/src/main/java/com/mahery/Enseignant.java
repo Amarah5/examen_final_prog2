@@ -10,5 +10,4 @@ import lombok.Setter;
 public class Enseignant {
   private final int id;
   private String name, fristName, birthday, email, phoneNumber, speciality;
-
 }
